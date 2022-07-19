@@ -1,16 +1,20 @@
 <template>
+<img src="./assets/logo.png" alt="Arnab">
 <h1>MY NAME IS ARNAB BISWAS</h1>
-<HelloWorld msg="Welcome to my Code Step By Step" />
+
+<MyCode/>
+<HomePage />
 </template>
 
 <script>
- import HelloWorld from './components/HelloWorld.vue'
-
+import HomePage from './components/Home.vue'
+import MyCode from './components/MyCode.vue'
 export default {
     name: 'App',
     components: {
-        HelloWorld
+
+        HomePage,
+        MyCode,
     }
 }
 </script>
-
