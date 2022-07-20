@@ -1,15 +1,18 @@
 <template>
 <img alt="Vue logo" src="./assets/logo.png">
-<HelloWorld msg="Welcome to my Arnab Biswas Site" />
+<HelloWorld />
+<EventWork/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import EventWork from './components/Event.vue'
 
 export default {
     name: 'App',
     components: {
-        HelloWorld
+        HelloWorld,
+        EventWork,
     }
 }
 </script>
