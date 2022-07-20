@@ -1,5 +1,5 @@
 <template>
-<h1 v-on:mouseover="getData()"><u>WELCOME TO MY CODE AND DO SOMETHING INTERESTING</u></h1>
+<!-- <h1 v-on:mouseover="getData()"><u>WELCOME TO MY CODE AND DO SOMETHING INTERESTING</u></h1> -->
 <h2 v-on:mouseover="getConsole()"><u>VUE.JS TUTORIAL</u></h2>
 <button v-on:click="onClick()">Click Here</button>
 <button v-on:dblclick="onClick()">Click Here</button>

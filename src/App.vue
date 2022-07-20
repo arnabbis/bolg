@@ -4,6 +4,7 @@
 <EventWork/>
 <MethodKey/>
 <TwoWay/>
+<CheckBox/>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import EventWork from './components/Event.vue'
 import MethodKey from './components/Methods.vue'
 import TwoWay from './components/TwoWayBinding.vue'
+import CheckBox from './components/CheckBox.vue'
 
 export default {
     name: 'App',
@@ -19,6 +21,7 @@ export default {
         EventWork,
         MethodKey,
         TwoWay,
+        CheckBox,
     }
 }
 </script>
