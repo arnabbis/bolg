@@ -5,6 +5,7 @@
 <MethodKey/>
 <TwoWay/>
 <CheckBox/>
+<IfElse/>
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import EventWork from './components/Event.vue'
 import MethodKey from './components/Methods.vue'
 import TwoWay from './components/TwoWayBinding.vue'
 import CheckBox from './components/CheckBox.vue'
+import IfElse from './components/IfElse.vue'
 
 export default {
     name: 'App',
@@ -22,6 +24,7 @@ export default {
         MethodKey,
         TwoWay,
         CheckBox,
+        IfElse,
     }
 }
 </script>
