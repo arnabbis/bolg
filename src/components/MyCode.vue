@@ -1,7 +1,7 @@
 <template>
 <!-- <img src="../assets/geospocimage.png" alt="geospoc"> -->
 <h1><u>WELCOME TO MY CODE AND DO SOMETHING INTERESTING</u></h1>
-<h2>Email-{{email}} Password-{{password}}</h2>
+<h2>Name-{{name="Arnab"}} Email-{{email="xyz@gmail.com"}} Password-{{password}} </h2>
 <h3>Address-{{getAddress("Andal,WestBengal")}}</h3>
 </template>
 
@@ -17,8 +17,10 @@ export default {
                 return a
             }
         }
+    },
+
     }
-}
+
 </script>
 
 

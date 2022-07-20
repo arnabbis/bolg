@@ -3,12 +3,14 @@
 <HelloWorld/>
 <MyCode/>
 <HomePage/>
+<MethodKey/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import HomePage from "./components/Home.vue";
 import MyCode from "./components/MyCode.vue";
+import MethodKey from "./components/Methods.vue";
 
 export default {
     name: 'App',
@@ -16,6 +18,7 @@ export default {
         HelloWorld,
         HomePage,
         MyCode,
+        MethodKey,
     }
 }
 </script>

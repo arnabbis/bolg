@@ -3,7 +3,7 @@
 <P><b><u>Hii i made my new webpage where you can easily do your code on vue.js and can explore new setups as well ass new ideas on the launch of vue.js version 3.0.5</u></b></P>
 <ol class="ol">
     <li id="li">Home</li>
-    <li id="li1">About</Li>
+    <li id="li1">About</li>
     <li id="li2">Contact</li>
     <li id="li3">Support</li>
 </ol>
