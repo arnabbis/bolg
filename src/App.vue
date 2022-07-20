@@ -2,17 +2,23 @@
 <img alt="Vue logo" src="./assets/logo.png">
 <HelloWorld />
 <EventWork/>
+<MethodKey/>
+<TwoWay/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import EventWork from './components/Event.vue'
+import MethodKey from './components/Methods.vue'
+import TwoWay from './components/TwoWayBinding.vue'
 
 export default {
     name: 'App',
     components: {
         HelloWorld,
         EventWork,
+        MethodKey,
+        TwoWay,
     }
 }
 </script>
