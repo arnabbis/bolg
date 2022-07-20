@@ -6,6 +6,7 @@
 <TwoWay/>
 <CheckBox/>
 <IfElse/>
+<ForLoop/>
 </template>
 
 <script>
@@ -15,6 +16,8 @@ import MethodKey from './components/Methods.vue'
 import TwoWay from './components/TwoWayBinding.vue'
 import CheckBox from './components/CheckBox.vue'
 import IfElse from './components/IfElse.vue'
+import ForLoop from './components/ForLoop.vue'
+
 
 export default {
     name: 'App',
@@ -25,6 +28,7 @@ export default {
         TwoWay,
         CheckBox,
         IfElse,
+        ForLoop
     }
 }
 </script>
