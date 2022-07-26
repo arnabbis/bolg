@@ -1,4 +1,5 @@
 <template>
+<div>
 <h1>CHECKBOX AND RADIO BUTTON</h1>
 <h2>NEW CODING LANGUAGE</h2>
 <label for="java">Java</label>
@@ -17,6 +18,7 @@
 <label for="javascript">Javascript</label>
 <input type="radio" value="javascript" name="codingLanguage" v-model="codingLanguage"  id="javascript"/>
 <h3>SELECTED TECHNOLOGY: {{codingLanguage}}</h3>
+</div>
 </template>
 
 <script>

@@ -1,35 +1,44 @@
 <template>
-<img alt="Vue logo" src="./assets/logo.png">
+<div>
+
+<!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 <HelloWorld />
+<!-- <components/> -->
 <EventWork/>
 <MethodKey/>
 <TwoWay/>
-<CheckBox/>
+<!-- <CheckBox/> -->
 <IfElse/>
-<ForLoop/>
+<ForLoop  data="Arnab Biswas"  msg="I am from westbengal"/>
+</div>
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import EventWork from './components/Event.vue'
-import MethodKey from './components/Methods.vue'
-import TwoWay from './components/TwoWayBinding.vue'
-import CheckBox from './components/CheckBox.vue'
-import IfElse from './components/IfElse.vue'
-import ForLoop from './components/ForLoop.vue'
+
+// import EventWork from './components/Event.vue'
+// import MethodKey from './components/Methods.vue'
+// import TwoWay from './components/TwoWayBinding.vue'
+// // import CheckBox from './components/CheckBox.vue'
+// import IfElse from './components/IfElse.vue'
+// import ForLoop from './components/ForLoop.vue'
+
 
 
 export default {
     name: 'App',
     components: {
-        HelloWorld,
-        EventWork,
-        MethodKey,
-        TwoWay,
-        CheckBox,
-        IfElse,
-        ForLoop
-    }
+    HelloWorld,
+    // components,
+    // EventWork,
+    // MethodKey,
+    // TwoWay,
+    // // CheckBox,
+    // IfElse,
+    // ForLoop,
+    
+}
 }
 </script>
 

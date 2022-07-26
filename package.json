@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "",
+    "start": "serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -28,12 +28,13 @@
     },
     "extends": [
       "plugin:vue/vue3-essential",
-      "eslint:recommended"
+      "eslint:recommended",
+      "@vue/prettier/@typescript-eslint"
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {"vue/no-multiple-template-root":0}
   },
   "browserslist": [
     "> 1%",
@@ -41,4 +42,5 @@
     "not dead",
     "not ie 11"
   ]
+
 }
